@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>// Just Upload //</title>
+	<title>// Just Upload - Hack The Nort Demo//</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
