@@ -1,0 +1,190 @@
+*{
+	font-family: arial;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+
+	background-color: #364150;
+}
+
+
+#lateral_panel_container{
+
+	width: 300px;
+	height: 100%;
+	position: absolute;
+	background-color: #eee;
+	border-right:5px solid #E26842;
+	position: fixed;
+}
+
+
+
+#panel_search_input_container{
+
+	margin-top: 50px;
+	padding: 15px;
+}
+
+.panel_search_input{
+
+	padding:10px;
+	border:none;
+	border-radius: 3px;
+	background-color: white;
+	color: grey;
+	width: 90%;
+	outline: none;
+	border:1px solid #E26842;
+}
+
+.panel_search_input:focus{
+
+	border:1px solid #32C5D2;
+}
+
+
+#index_latest_uploads_container{
+
+	width: 600px;
+	padding: 15px;
+	margin-left: 350px;
+	margin-top: 15px;
+	position: absolute;
+	border-radius: 2px; 
+
+}
+
+
+#single_upload_container{
+
+	max-width: 500px;
+	height: auto;
+	-webkit-transition:.5s;
+	padding: 25px;
+	margin-top: 25px;
+	background-color: #eee;
+	padding-left: 0;
+	padding-right: 0;
+	border-radius: 3px;
+	border: 1px solid orange; 
+
+
+
+
+}
+
+#single_upload_container:hover{
+
+	-webkit-box-shadow: 2px 3px 41px 0px rgba(0,0,0,1);
+-moz-box-shadow: 2px 3px 41px 0px rgba(0,0,0,1);
+box-shadow: 2px 3px 41px 0px rgba(0,0,0,1);
+}
+
+#panel_upload_container{
+
+	width: 280px;
+	margin: 10px;
+	border-radius: 2px; 
+	height: 200px;
+	display: none;
+	margin-top: 100px;
+	background-color: white;
+	bottom: 80px;
+	position: absolute;
+	border:1px solid grey;
+}
+
+.upload_image_input{
+	width: 80%;
+	padding: 8px;
+	margin:15px;
+	outline: none;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	color: grey;
+
+}
+
+
+.upload_image_file_input{
+	width: 80%;
+	padding: 5px;
+	border:1px dashed grey;
+	margin:15px;
+	color:grey;
+	outline: none;
+
+}
+
+
+.upload_image_submit{
+	width: 250px;
+	padding: 10px;
+	background-color: #0074E4;
+	margin:15px;
+	color: white;
+	border:none;
+	height: 35px;
+	outline: none;
+	border-radius: 2px;
+}
+
+#show_upload_image_container{
+
+	width: 250px;
+	margin: 25px;
+	padding: 10px;
+	color: white;
+	background-color: #343436;
+	border:none;
+	position: absolute;
+	bottom: 15px;
+	outline: none;
+}
+
+
+#search_top_bar{
+	width: 100%;
+	height: 45px;
+	background-color: white;
+}
+
+.search_search_input{
+
+	width: 400px;
+	position: absolute;
+	margin-top: 7px;
+	margin-left: 15px;
+	padding: 5px;
+	outline: none;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding-left: 15px; 
+}
+
+
+#search_results_general_container{
+
+	width: 700px;
+	margin: auto;
+	padding:15px;
+	background-color: white;
+	margin-top: 15px;
+	border-radius: 3px; 
+	margin-bottom: 50px;
+}
+
+
+#link_back_home{
+
+	color:white;
+	text-decoration: none;
+	padding: 10px;
+	position: absolute;
+	margin: 15px;
+	border-radius: 2px;
+	border:1px solid white;
+}
